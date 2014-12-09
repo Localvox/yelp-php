@@ -18,7 +18,7 @@ class Client
     private $search_path = '/v2/search/';
     private $business_path = '/v2/business/';
 
-    public function __construct($config = [])
+    public function __construct($config = array())
     {
         $this->consumer_key = $config['consumer_key'];
         $this->consumer_secret = $config['consumer_secret'];
