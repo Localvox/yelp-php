@@ -7,10 +7,16 @@
             "email": "stevenmaguire@gmail.com"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://vincefairfax:4newteeth@github.com/localvox/oauth-shim-php.git"
+      }
+    ],
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
-        "stevenmaguire/oauth-shim-php": ">=0.0.1"
+        "stevenmaguire/oauth-shim-php": ">=0.0.2"
     },
     "autoload": {
         "classmap": [
